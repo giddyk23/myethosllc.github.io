@@ -3,13 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Ethos LLC</title>
+
+<title>My Ethos LLC | U.S. Market Entry Advisory</title>
 
 https://fonts.googleapis.com
-https://fonts.gstatic.com
-https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap
+<link relonts.gstatic.com
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap
 
 <style>
+
 *{
 margin:0;
 padding:0;
@@ -18,17 +20,17 @@ box-sizing:border-box;
 
 body{
 font-family:'Inter',sans-serif;
-background:#fff;
 color:#1f2937;
 line-height:1.6;
+background:#ffffff;
 }
 
 header{
 position:fixed;
 top:0;
 width:100%;
-background:#fff;
-box-shadow:0 2px 10px rgba(0,0,0,.08);
+background:white;
+box-shadow:0 2px 20px rgba(0,0,0,.08);
 z-index:1000;
 }
 
@@ -44,100 +46,121 @@ padding:18px 24px;
 .logo{
 font-size:1.5rem;
 font-weight:800;
-color:#0077b5;
+color:#0A66C2;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
 }
 
 nav a{
 text-decoration:none;
 color:#374151;
-margin-left:20px;
 font-weight:600;
 }
 
 .hero{
+background:linear-gradient(135deg,#0A66C2,#004182);
+color:white;
 padding:180px 20px 120px;
 text-align:center;
-background:linear-gradient(135deg,#0077b5,#004b7a);
-color:white;
 }
 
 .hero h1{
 font-size:4rem;
-margin-bottom:20px;
+font-weight:800;
+margin-bottom:25px;
+max-width:900px;
+margin-left:auto;
+margin-right:auto;
 }
 
 .hero p{
-max-width:800px;
+font-size:1.3rem;
+max-width:850px;
 margin:auto;
-font-size:1.2rem;
+opacity:.95;
 }
 
-.btn{
+.button{
 display:inline-block;
-margin-top:30px;
-padding:14px 30px;
+margin-top:35px;
+padding:15px 34px;
 background:white;
-color:#0077b5;
+color:#0A66C2;
+border-radius:10px;
 text-decoration:none;
 font-weight:700;
-border-radius:10px;
 }
 
 .section{
 max-width:1200px;
 margin:auto;
-padding:90px 20px;
+padding:100px 20px;
 }
 
-.section h2{
+.section-title{
+font-size:2.7rem;
 text-align:center;
-font-size:2.5rem;
 margin-bottom:20px;
 }
 
-.section p.lead{
+.section-subtitle{
 text-align:center;
 max-width:800px;
-margin:0 auto 50px;
+margin:0 auto 60px;
 color:#6b7280;
 }
 
 .cards{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 gap:25px;
 }
 
 .card{
+background:white;
 padding:30px;
-border-radius:16px;
-box-shadow:0 10px 25px rgba(0,0,0,.08);
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
 
 .card h3{
-color:#0077b5;
-margin-bottom:10px;
+margin-bottom:15px;
+color:#0A66C2;
 }
 
 .about{
 background:#f8fafc;
 }
 
+.why{
+background:#ffffff;
+}
+
 .cta{
-text-align:center;
 background:#0f172a;
-color:white;
 padding:100px 20px;
+text-align:center;
+color:white;
+}
+
+.cta h2{
+font-size:2.5rem;
+margin-bottom:20px;
 }
 
 .cta a{
 display:inline-block;
-margin-top:20px;
-padding:14px 30px;
-background:#0077b5;
+margin-top:30px;
+padding:15px 30px;
+background:#0A66C2;
 color:white;
 text-decoration:none;
 border-radius:10px;
+font-weight:700;
 }
 
 footer{
@@ -152,93 +175,170 @@ color:#60a5fa;
 }
 
 @media(max-width:768px){
+
 .hero h1{
-font-size:2.5rem;
+font-size:2.6rem;
 }
 
-nav{
-flex-direction:column;
-gap:10px;
+nav ul{
+display:none;
 }
+
+.section-title{
+font-size:2rem;
 }
+
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-<nav>
-<div class="logo">My Ethos LLC</div>
 
-<div>
-#aboutAbout</a>
-#servicesServices</a>
-#contactContact</a>
+<nav>
+
+<div class="logo">
+My Ethos LLC
 </div>
+
+<ul>
+<li><a href="#about">About</a>servicesServices</a></li>
+<li><whyWhy Us</a></li>
+<li><a href="#contact">Contact</a>
+
 </nav>
+
 </header>
 
 <section class="hero">
-<h1>Building Organizations That Thrive</h1>
+
+<h1>
+Helping International Companies Succeed in the U.S. Market
+</h1>
 
 <p>
-My Ethos LLC helps leaders align strategy, technology,
-operations, and culture to create sustainable growth.
+My Ethos LLC supports technology and professional services companies
+expanding into the United States through strategic guidance,
+market positioning, business development, and operational readiness.
 </p>
 
-#contactLet's Connect</a>
+#contact
+Start a Conversation
+</a>
+
 </section>
 
 <section id="about" class="section about">
-<h2>About My Ethos</h2>
 
-<p class="lead">
-We help organizations create meaningful impact through
-strategic thinking, innovation, operational excellence,
-and leadership development.
+<h2 class="section-title">About My Ethos</h2>
+
+<p class="section-subtitle">
+Entering the U.S. market requires more than a great product.
+Success depends on understanding customers, building relationships,
+navigating business practices, and establishing a clear growth strategy.
+My Ethos LLC helps international organizations accelerate their entry
+and growth within the United States.
 </p>
+
 </section>
 
 <section id="services" class="section">
-<h2>Services</h2>
+
+<h2 class="section-title">Services</h2>
+
+<p class="section-subtitle">
+Practical support to help organizations establish and grow their U.S. presence.
+</p>
 
 <div class="cards">
 
 <div class="card">
-<h3>Strategic Consulting</h3>
-<p>Business transformation and growth planning.</p>
+<h3>Market Entry Strategy</h3>
+<p>
+Develop a focused plan for entering and scaling within the United States.
+</p>
 </div>
 
 <div class="card">
-<h3>Digital Transformation</h3>
-<p>Technology modernization and AI adoption.</p>
+<h3>Business Development</h3>
+<p>
+Identify opportunities, build relationships, and accelerate growth.
+</p>
 </div>
 
 <div class="card">
-<h3>Leadership Development</h3>
-<p>Building high-performing teams and cultures.</p>
+<h3>Technology Advisory</h3>
+<p>
+Align technology solutions with market needs and customer expectations.
+</p>
 </div>
 
 <div class="card">
-<h3>Operational Excellence</h3>
-<p>Improving processes, efficiency and execution.</p>
+<h3>Strategic Partnerships</h3>
+<p>
+Create meaningful partnerships that support long-term expansion.
+</p>
 </div>
 
 </div>
+
+</section>
+
+<section id="why" class="section why">
+
+<h2 class="section-title">Why My Ethos LLC</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>International Perspective</h3>
+<p>
+Understanding the challenges and opportunities faced by global companies entering the U.S.
+</p>
+</div>
+
+<div class="card">
+<h3>Technology Expertise</h3>
+<p>
+Experience supporting technology organizations and innovative businesses.
+</p>
+</div>
+
+<div class="card">
+<h3>Trusted Advisor</h3>
+<p>
+Focused on practical results, measurable outcomes, and long-term relationships.
+</p>
+</div>
+
+</div>
+
 </section>
 
 <section id="contact" class="cta">
-<h2>Ready to Start the Conversation?</h2>
 
-<p>Connect with My Ethos LLC on LinkedIn.</p>
+<h2>
+Let's Discuss Your U.S. Expansion Strategy
+</h2>
 
-<a href="https://www.linkedin.commyethos-llc/
+<p>
+Connect with My Ethos LLC on LinkedIn.
+</p>
+
+https://www.linkedin.com/company/myethos-llc/
 Visit LinkedIn
 </a>
+
 </section>
 
 <footer>
-<p>© 2026 My Ethos LLC</p>
+
+<p>
+© 2026 My Ethos LLC
+</p>
+
 </footer>
 
 </body>
